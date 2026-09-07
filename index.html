@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tri-Aid — Digital triage platform for hospitals &amp; clinics | SoliDevs</title>
+  <meta name="description" content="Tri-Aid registers patients, captures vital signs automatically from medical instruments, classifies triage priority and routes patients to the right specialty.">
+  <meta name="keywords" content="triage, emergency, vital signs, hospital, clinic, health digital platform, Tri-Aid, SoliDevs">
+  <meta name="author" content="SoliDevs — UPC">
+  <link rel="icon" type="image/svg+xml" href="assets/logo.svg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Material+Symbols+Rounded:opsz,wght,FILL@24,400,0&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip">Skip to main content</a>
+
+  <!-- ================= NAVIGATION ================= -->
+  <header class="nav">
+    <a class="brand" href="#home" aria-label="Tri-Aid — SoliDevs">
+      <img src="assets/logo.svg" alt="" width="34" height="34">
+      <span>Tri-Aid</span>
+    </a>
+
+    <nav class="nav-links" id="nav-links" aria-label="Main navigation">
+      <a href="#home" data-i18n="nav.home">Home</a>
+      <a href="#about" data-i18n="nav.about">About</a>
+      <a href="#features" data-i18n="nav.features">Features</a>
+      <a href="#how" data-i18n="nav.how">How it works</a>
+      <a href="#team" data-i18n="nav.team">Team</a>
+      <a href="#contact" data-i18n="nav.contact">Contact</a>
+      <a href="#home" class="nav-cta" data-i18n="nav.staff">Staff portal</a>
+    </nav>
+
+    <div class="lang-switch" role="group" aria-label="Language selector">
+      <button type="button" data-lang="en" aria-pressed="true">EN</button>
+      <button type="button" data-lang="es" aria-pressed="false">ES</button>
+    </div>
+
+    <button class="nav-burger" aria-expanded="false" aria-controls="nav-links" data-i18n-aria="nav.menu">
+      <span class="material-symbols-rounded" aria-hidden="true">menu</span>
+    </button>
+  </header>
+
+  <main id="main">
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div>
+        <span class="hero-badge">
+          <span class="material-symbols-rounded" aria-hidden="true" style="font-size:16px">monitor_heart</span>
+          <span data-i18n="hero.badge">Digital triage platform for hospitals &amp; clinics</span>
+        </span>
+        <h1 id="hero-title">
+          <span data-i18n="hero.title1">Triage in seconds,</span><br>
+          <em data-i18n="hero.title2">care that can't wait</em>
+        </h1>
+        <p class="lead" data-i18n="hero.lead">Tri-Aid registers patients, captures vital signs automatically from medical measurement instruments, classifies priority and routes each patient to the right specialty — with instant alerts when a value is out of range.</p>
+        <div class="hero-ctas">
+          <a class="btn btn-primary" href="#contact">
+            <span class="material-symbols-rounded" aria-hidden="true">badge</span>
+            <span data-i18n="hero.cta.staff">I'm triage staff</span>
+          </a>
+          <a class="btn btn-outline" href="#patients">
+            <span class="material-symbols-rounded" aria-hidden="true">person</span>
+            <span data-i18n="hero.cta.patient">I'm a patient</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="monitor" role="img" aria-label="Preview of the Tri-Aid vital signs monitor showing heart rate, oxygen saturation, blood pressure and temperature">
+        <div class="monitor-head">
+          <strong data-i18n="monitor.title">Live triage — ER module</strong>
+          <span class="chip" data-i18n="monitor.chip">Priority II · Urgent</span>
+        </div>
+        <div class="vitals">
+          <div class="vital"><small data-i18n="monitor.hr">HEART RATE</small><strong>78</strong> <span class="unit">bpm</span></div>
+          <div class="vital"><small data-i18n="monitor.spo2">OXYGEN SAT.</small><strong>97%</strong></div>
+          <div class="vital"><small data-i18n="monitor.bp">BLOOD PRESSURE</small><strong>120/80</strong></div>
+          <div class="vital"><small data-i18n="monitor.temp">TEMPERATURE</small><strong>36.6</strong> <span class="unit">°C</span></div>
+        </div>
+        <div class="pulse" aria-hidden="true">
+          <svg viewBox="0 0 320 44"><path d="M0 22h60l8-12 10 24 9-18 7 6h40l8-12 10 24 9-18 7 6h40l8-12 10 24 9-18 7 6h49"/></svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= STATS ================= -->
+    <section class="section" aria-label="Key figures">
+      <div class="stats reveal">
+        <div class="stat"><strong>&lt;3</strong><span data-i18n="stats.1">min. target triage time</span></div>
+        <div class="stat"><strong>5</strong><span data-i18n="stats.2">level priority scale</span></div>
+        <div class="stat"><strong>0</strong><span data-i18n="stats.3">manual transcription</span></div>
+        <div class="stat"><strong>24/7</strong><span data-i18n="stats.4">patient visibility</span></div>
+      </div>
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="section-head reveal">
+        <p class="kicker" data-i18n="about.kicker">About Tri-Aid</p>
+        <h2 id="about-title" data-i18n="about.title">The bridge between measurement instruments and emergency care</h2>
+      </div>
+      <div class="about-grid reveal">
+        <div>
+          <h3 data-i18n="about.h3a">Why Tri-Aid exists</h3>
+          <p data-i18n="about.p1">In most emergency rooms, vital signs are measured with standalone devices and written down by hand, then typed into a system. That double entry wastes critical minutes and causes errors that can change a patient's priority.</p>
+          <p data-i18n="about.p2">Tri-Aid connects the whole chain: from the moment a patient arrives, to the automatic capture of their vital signs, to an assisted priority classification that triage staff always validate.</p>
+        </div>
+        <ul class="about-list">
+          <li><span class="material-symbols-rounded" aria-hidden="true">check_circle</span><span data-i18n="about.li1">Built for triage nurses and technicians</span></li>
+          <li><span class="material-symbols-rounded" aria-hidden="true">check_circle</span><span data-i18n="about.li2">Aligned with structured triage standards (5-level scales)</span></li>
+          <li><span class="material-symbols-rounded" aria-hidden="true">check_circle</span><span data-i18n="about.li3">Accessible, bilingual experience (EN/ES) on any device</span></li>
+          <li><span class="material-symbols-rounded" aria-hidden="true">check_circle</span><span data-i18n="about.li4">Patients stay informed about their status and specialty</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ================= FEATURES ================= -->
+    <section class="section" id="features" aria-labelledby="features-title">
+      <div class="section-head reveal">
+        <p class="kicker" data-i18n="features.kicker">Features</p>
+        <h2 id="features-title" data-i18n="features.title">Everything the triage room needs</h2>
+        <p data-i18n="features.sub">Five core capabilities, one assisted workflow that always keeps clinical judgment in your team's hands.</p>
+      </div>
+      <div class="features">
+        <article class="feature-card reveal">
+          <span class="material-symbols-rounded" aria-hidden="true">person_add</span>
+          <h3 data-i18n="f1.title">Patient registration</h3>
+          <p data-i18n="f1.text">Digital admission in seconds: identity and contact data recorded once and shared across the emergency visit.</p>
+        </article>
+        <article class="feature-card reveal">
+          <span class="material-symbols-rounded" aria-hidden="true">monitor_heart</span>
+          <h3 data-i18n="f2.title">Automatic vital signs</h3>
+          <p data-i18n="f2.text">Readings flow straight from the measurement instruments into the platform — no manual transcription, no transcription errors.</p>
+        </article>
+        <article class="feature-card reveal">
+          <span class="material-symbols-rounded" aria-hidden="true">sort</span>
+          <h3 data-i18n="f3.title">Priority classification</h3>
+          <p data-i18n="f3.text">An assisted classification based on habitual ranges suggests the priority level; triage staff validate and confirm it.</p>
+        </article>
+        <article class="feature-card reveal">
+          <span class="material-symbols-rounded" aria-hidden="true">notifications_active</span>
+          <h3 data-i18n="f4.title">Out-of-range alerts</h3>
+          <p data-i18n="f4.text">Instant notifications when any value exceeds the habitual range, so critical patients escalate without delay.</p>
+        </article>
+        <article class="feature-card reveal">
+          <span class="material-symbols-rounded" aria-hidden="true">medical_services</span>
+          <h3 data-i18n="f5.title">Specialty assignment</h3>
+          <p data-i18n="f5.text">Data-driven routing sends every patient to the corresponding medical specialty, reducing wrong referrals and rework.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ================= HOW IT WORKS ================= -->
+    <section class="section" id="how" aria-labelledby="how-title">
+      <div class="section-head reveal">
+        <p class="kicker" data-i18n="how.kicker">How it works</p>
+        <h2 id="how-title" data-i18n="how.title">From the door to the right specialty</h2>
+      </div>
+      <ol class="steps">
+        <li class="step reveal"><h3 data-i18n="how.s1.title">Register</h3><p data-i18n="how.s1.text">The patient arrives and is digitally registered by triage staff in seconds.</p></li>
+        <li class="step reveal"><h3 data-i18n="how.s2.title">Measure</h3><p data-i18n="how.s2.text">Vital signs are captured automatically from the connected instruments.</p></li>
+        <li class="step reveal"><h3 data-i18n="how.s3.title">Classify</h3><p data-i18n="how.s3.text">The platform suggests a priority level; the triage nurse validates it.</p></li>
+        <li class="step reveal"><h3 data-i18n="how.s4.title">Route</h3><p data-i18n="how.s4.text">The patient is assigned to the right specialty and staff monitor out-of-range alerts.</p></li>
+      </ol>
+    </section>
+
+    <!-- ================= PATIENTS BAND ================= -->
+    <section class="section" id="patients" aria-labelledby="patients-title">
+      <div class="band reveal">
+        <p class="kicker" style="color:#b2dfdb; letter-spacing:1.5px; text-transform:uppercase; font-size:.8rem" data-i18n="patients.kicker">For patients</p>
+        <h2 id="patients-title" data-i18n="patients.title">Know your status while you wait</h2>
+        <p data-i18n="patients.text">Tri-Aid gives patients visibility of their triage state and the specialty they are being routed to — no more repeating your data at every desk, no more waiting without answers.</p>
+        <a class="btn btn-primary" href="#contact">
+          <span class="material-symbols-rounded" aria-hidden="true">query_stats</span>
+          <span data-i18n="patients.cta">Check my triage status</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- ================= ABOUT THE PRODUCT VIDEO ================= -->
+    <section class="section" id="video" aria-labelledby="video-title">
+      <div class="section-head reveal">
+        <p class="kicker" data-i18n="video.kicker">About the product</p>
+        <h2 id="video-title" data-i18n="video.title">See Tri-Aid in action</h2>
+      </div>
+      <div class="video-card reveal" role="status">
+        <div>
+          <span class="material-symbols-rounded" aria-hidden="true">play_circle</span>
+          <p data-i18n="video.text">Product demonstration video coming soon — live triage walkthrough with real workflows.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= TEAM ================= -->
+    <section class="section" id="team" aria-labelledby="team-title">
+      <div class="section-head reveal">
+        <p class="kicker" data-i18n="team.kicker">Team</p>
+        <h2 id="team-title" data-i18n="team.title">The SoliDevs team</h2>
+      </div>
+      <div class="team">
+        <article class="member reveal"><div class="avatar" aria-hidden="true">HH</div><h3>Hernan Huayta Fuentes</h3><p data-i18n="team.1.role">Team Leader · Full-stack</p><a href="https://github.com/Homesman" rel="noopener">@Homesman</a></article>
+        <article class="member reveal"><div class="avatar" aria-hidden="true">MA</div><h3>Mitchell Alva Ayala</h3><p data-i18n="team.2.role">Frontend development</p><a href="https://github.com/upc-pre-1ASI0730-2620-8155-SoliDevs" rel="noopener" data-i18n="nav.contact">Contact</a></article>
+        <article class="member reveal"><div class="avatar" aria-hidden="true">NC</div><h3>Nicolas Castro Solorza</h3><p data-i18n="team.3.role">Backend development</p><a href="https://github.com/upc-pre-1ASI0730-2620-8155-SoliDevs" rel="noopener" data-i18n="nav.contact">Contact</a></article>
+        <article class="member reveal"><div class="avatar" aria-hidden="true">MD</div><h3>Mauricio Diaz Nuñez</h3><p data-i18n="team.4.role">Databases &amp; testing</p><a href="https://github.com/upc-pre-1ASI0730-2620-8155-SoliDevs" rel="noopener" data-i18n="nav.contact">Contact</a></article>
+        <article class="member reveal"><div class="avatar" aria-hidden="true">EO</div><h3>Enrique Ochoa Prado</h3><p data-i18n="team.5.role">Backend development</p><a href="https://github.com/upc-pre-1ASI0730-2620-8155-SoliDevs" rel="noopener" data-i18n="nav.contact">Contact</a></article>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section class="section contact" id="contact" aria-labelledby="contact-title">
+      <div class="section-head reveal">
+        <p class="kicker" data-i18n="contact.kicker">Contact</p>
+        <h2 id="contact-title" data-i18n="contact.title">Bring Tri-Aid to your emergency room</h2>
+        <p data-i18n="contact.text">Hospitals, clinics and health institutions: request a live demo and measure the difference in your own triage room.</p>
+      </div>
+      <a class="mail reveal" href="mailto:contact@solidevs.pe">
+        <span class="material-symbols-rounded" aria-hidden="true">mail</span>
+        <span data-i18n="contact.mail">contact@solidevs.pe</span>
+      </a>
+    </section>
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="footer-grid">
+      <a class="brand" href="#home">
+        <img src="assets/logo.svg" alt="" width="30" height="30">
+        <span>Tri-Aid</span>
+      </a>
+      <nav aria-label="Footer">
+        <a href="#home" data-i18n="nav.home">Home</a>
+        <a href="terms.html" data-i18n="footer.terms">Terms &amp; Conditions</a>
+        <a href="https://github.com/upc-pre-1ASI0730-2620-8155-SoliDevs/project-report" rel="noopener" data-i18n="footer.report">Project report</a>
+      </nav>
+      <nav aria-label="Language">
+        <strong style="color:#fff; font-size:.9rem">Language</strong>
+        <div class="lang-switch" role="group" aria-label="Language selector">
+          <button type="button" data-lang="en" aria-pressed="true">EN</button>
+          <button type="button" data-lang="es" aria-pressed="false">ES</button>
+        </div>
+      </nav>
+    </div>
+    <small><span data-i18n="footer.rights">© 2026 SoliDevs — Universidad Peruana de Ciencias Aplicadas. All rights reserved.</span> · <span id="year">2026</span></small>
+  </footer>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
