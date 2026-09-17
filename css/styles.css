@@ -849,3 +849,21 @@ ul, ol { list-style: none; }
   .heart-shape, .heart-glow, .heart-ring { animation: none; }
   .btn, .feature-card, .member-card, .btn-nav, .mobile-auth a, .nav-links a, .footer-links a { transition: none; }
 }
+
+/* ================= PLANS (suscripción) ================= */
+.plans-sub { color: var(--ink-deep, #193026); opacity: .75; max-width: 640px; margin: 0 auto 42px; text-align: center; }
+.plans-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; align-items: stretch; }
+.plan-card { position: relative; display: flex; flex-direction: column; gap: 10px; background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 28px 24px; transition: transform .25s ease, box-shadow .25s ease; }
+.plan-card:hover { transform: translateY(-6px); box-shadow: 0 14px 34px rgba(10, 34, 26, .12); }
+.plan-card.plan-featured { border: 2px solid var(--accent-ink); }
+.plan-badge { position: absolute; top: -13px; right: 20px; background: var(--accent-ink); color: #fff; font: 700 .72rem/1 var(--font-display, Arial); letter-spacing: .8px; text-transform: uppercase; padding: 6px 12px; border-radius: 999px; }
+.plan-card h3 { font-size: 1.15rem; color: var(--ink-panel); }
+.plan-for { color: var(--ink-deep); opacity: .7; font-size: .9rem; min-height: 2.4em; }
+.plan-price { font: 500 2.4rem/1 var(--font-mono, monospace); letter-spacing: -1px; color: var(--accent-ink); }
+.plan-price span { font-size: .95rem; font-weight: 400; letter-spacing: 0; color: var(--ink-deep); opacity: .65; }
+.plan-features { list-style: none; display: grid; gap: 8px; margin: 10px 0 22px; }
+.plan-features li { font-size: .92rem; color: var(--ink-deep); padding-left: 22px; position: relative; }
+.plan-features li::before { content: "✓"; position: absolute; left: 0; color: var(--accent-ink); font-weight: 700; }
+.plan-cta { margin-top: auto; }
+.plans-note { text-align: center; color: var(--ink-deep); opacity: .6; font-size: .85rem; margin-top: 22px; }
+@media (max-width: 900px) { .plans-grid { grid-template-columns: 1fr; } }

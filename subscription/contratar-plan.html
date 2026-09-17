@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contratar plan · Tri-Aid</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231d6b4f'/%3E%3Cpath d='M6 17h5l2-6 4 10 2-6h7' stroke='%23eafff3' stroke-width='2.6' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/tokens.css" />
+  <link rel="stylesheet" href="css/wireframes.css" />
+  <style>
+    /* Indicador de pasos (D1-D3) */
+    .steps { display: flex; align-items: center; gap: var(--space-3); margin-bottom: var(--space-6); }
+    .steps .step { display: inline-flex; align-items: center; gap: var(--space-2); font: 600 var(--text-sm) var(--font-body); color: var(--muted); }
+    .steps .step .n { width: 24px; height: 24px; border-radius: 50%; border: 1.5px solid var(--border-strong); display: grid; place-items: center; font: 600 var(--text-xs) var(--font-mono); }
+    .steps .step.active { color: var(--accent-ink); }
+    .steps .step.active .n { background: var(--accent-ink); border-color: var(--accent-ink); color: #fff; }
+    .steps .step.done .n { background: var(--accent-soft); border-color: var(--accent-ink); color: var(--accent-ink); }
+    .steps .sep { width: 34px; height: 1.5px; background: var(--border-strong); }
+    .sub-wrap { max-width: var(--container); margin: 0 auto; padding: var(--space-8) var(--space-6) var(--space-12); }
+    .plan-tag { font: 600 var(--text-sm) var(--font-body); color: var(--accent-ink); }
+    .price { font: 500 var(--text-3xl)/1 var(--font-mono); letter-spacing: -0.02em; }
+    .fld { margin-bottom: var(--space-4); }
+</style>
+  <script src="js/app.js" defer></script>
+</head>
+<body class="auth-body">
+
+  <div class="sub-wrap">
+    <div class="steps"><span class="step active"><span class="n">1</span>Plan</span><span class="sep"></span><span class="step "><span class="n">2</span>Pago</span><span class="sep"></span><span class="step "><span class="n">3</span>Confirmación</span></div>
+    <div style="display:grid;grid-template-columns:minmax(300px,380px) 1fr;gap:var(--space-6);align-items:start">
+      <section class="panel" style="position:sticky;top:var(--space-6)" data-od-id="resumen-plan">
+        <div class="panel-head"><div><h2>Tu plan</h2><p class="plan-tag">Recomendado para clínicas privadas</p></div></div>
+        <div class="card-row" style="align-items:baseline">
+          <b style="font-size:var(--text-xl)">Esencial</b>
+          <span class="price">S/ 79<small style="font-size:var(--text-sm);color:var(--muted)">/mes</small></span>
+        </div>
+        <div class="toolbar" style="gap:var(--space-2)">
+          <button class="fchip active" type="button">Mensual</button>
+          <button class="fchip" type="button">Anual · −17%</button>
+        </div>
+        <p class="hint">Hasta 5 usuarios de triaje · captura automática de signos vitales · alertas en tiempo real · portal del paciente incluido.</p>
+      </section>
+      <section style="display:grid;gap:var(--space-5)" data-od-id="form-contratacion">
+        <div class="panel">
+          <div class="panel-head"><div><h2>Datos de la institución</h2></div></div>
+          <div class="form-grid">
+            <div class="field"><label class="sr" for="inst-nombre">Nombre de la institución</label><input type="text" placeholder="Clínica San Miguel — Lima"></div>
+            <div class="field invalid"><label class="sr" for="inst-ruc">RUC</label><input type="text" placeholder="20512345678"><p class="err" style="display:flex"><svg class="ic"><use href="#i-alert"/></svg>Este campo es obligatorio</p></div>
+            <div class="field"><label class="sr" for="inst-dir">Dirección</label><input type="text" placeholder="Av. Brasil 1234, Magdalena"></div>
+            <div class="field"><label class="sr" for="inst-tel">Teléfono</label><input type="text" placeholder="(01) 555 0123"></div>
+          </div>
+        </div>
+        <div class="panel">
+          <div class="panel-head"><div><h2>Administrador de la cuenta</h2></div></div>
+          <div class="form-grid">
+            <div class="field"><label class="sr" for="adm-nombre">Nombre completo</label><input type="text" placeholder="Jorge Ramírez Torres"></div>
+            <div class="field"><label class="sr" for="adm-mail">Correo institucional</label><input type="text" placeholder="jorge.ramirez@clinicasanmiguel.pe"></div>
+            <div class="field"><label class="sr" for="adm-dni">DNI</label><input type="text" placeholder="08123456"></div>
+            <div class="field"><label class="sr" for="adm-pass">Contraseña (mín. 8 caracteres)</label><input type="password" placeholder="••••••••"></div>
+            <div class="field"><label class="sr" for="adm-pass2">Confirmar contraseña</label><input type="password" placeholder="••••••••"></div>
+          </div>
+        </div>
+        <div class="actions-row">
+          <a class="btn btn-ghost" href="../index.html">Volver</a>
+          <a class="btn btn-primary" href="d2-pago.html">Continuar al pago<svg class="ic"><use href="#i-arr-r"/></svg></a>
+        </div>
+      </section>
+    </div>
+  </div>
+
+</body>
+</html>
