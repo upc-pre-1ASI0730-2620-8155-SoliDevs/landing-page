@@ -80,6 +80,8 @@ const I18N = {
     "f5.x": "Data-driven routing sends every patient to the corresponding medical specialty, reducing wrong referrals and rework.",
 
     "team.subtitle": "The people behind Tri-Aid, the bridge between measurement instruments and emergency care.",
+    "team.role": "Team member",
+    "team.desc": "UPC student building Tri-Aid as part of the SoliDevs team.",
     "team.title": "The SoliDevs team",
 
 
@@ -181,6 +183,8 @@ const I18N = {
     "f5.x": "La derivación guiada por datos envía a cada paciente a la especialidad médica correspondiente, reduciendo traslados equivocados.",
 
     "team.subtitle": "Las personas detrás de Tri-Aid, el puente entre los instrumentos de medición y la atención de emergencia.",
+    "team.role": "Integrante del equipo",
+    "team.desc": "Estudiante de UPC que desarrolla Tri-Aid como parte del equipo SoliDevs.",
     "team.title": "El equipo de SoliDevs",
 
 
