@@ -79,6 +79,7 @@ const I18N = {
     "f5.t": "Specialty assignment",
     "f5.x": "Data-driven routing sends every patient to the corresponding medical specialty, reducing wrong referrals and rework.",
 
+    "team.subtitle": "The people behind Tri-Aid, the bridge between measurement instruments and emergency care.",
     "team.title": "The SoliDevs team",
 
 
@@ -179,6 +180,7 @@ const I18N = {
     "f5.t": "Asignación a especialidades",
     "f5.x": "La derivación guiada por datos envía a cada paciente a la especialidad médica correspondiente, reduciendo traslados equivocados.",
 
+    "team.subtitle": "Las personas detrás de Tri-Aid, el puente entre los instrumentos de medición y la atención de emergencia.",
     "team.title": "El equipo de SoliDevs",
 
 
