@@ -52,6 +52,9 @@ const I18N = {
     "about.title": "The bridge between measurement instruments and emergency care",
     "about.p1": "In most emergency rooms, vital signs are measured with standalone devices and written down by hand, then typed into a system. That double entry wastes critical minutes and causes errors that can change a patient's priority.",
     "about.p2": "Tri-Aid connects the whole chain: automatic vital-sign capture, assisted priority classification validated by triage staff, and routing to the right specialty.",
+    "video.kicker": "About the product",
+    "video.title": "See Tri-Aid in action",
+    "video.text": "Product demonstration video coming soon — live triage walkthrough with real workflows.",
 
     "features.title": "Everything the triage room needs",
     "f1.t": "Patient registration",
@@ -138,6 +141,9 @@ const I18N = {
     "about.title": "El puente entre los instrumentos de medición y la atención de emergencia",
     "about.p1": "En la mayoría de emergencias, los signos vitales se miden con aparatos independientes y se anotan a mano para luego digitarlos en un sistema. Esa doble digitación pierde minutos críticos y genera errores que pueden cambiar la prioridad de un paciente.",
     "about.p2": "Tri-Aid conecta toda la cadena: captura automática de signos vitales, clasificación de prioridad asistida validada por el personal de triaje y derivación a la especialidad correcta.",
+    "video.kicker": "Sobre el producto",
+    "video.title": "Mira Tri-Aid en acción",
+    "video.text": "Video de demostración del producto próximamente: recorrido de triaje en vivo con flujos reales.",
 
     "features.title": "Todo lo que la sala de triaje necesita",
     "f1.t": "Registro de pacientes",
