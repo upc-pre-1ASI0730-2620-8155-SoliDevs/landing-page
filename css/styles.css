@@ -934,3 +934,12 @@ section:has(.video-layout) { padding-top: 64px; padding-bottom: 64px; }
 .check-list { gap: 16px; margin-bottom: 30px; }
 .check-list li { font-size: 1.02rem; }
 .video-card .video-link { aspect-ratio: 16 / 9; margin-top: auto; }
+/* Balance video section height */
+.video-card { padding: 28px; }
+.video-card h3 { font-size: 1.5rem; margin-bottom: 10px; }
+.video-desc { margin-bottom: 18px; line-height: 1.6; }
+.check-list { gap: 12px; margin-bottom: 22px; }
+.video-card .video-link { aspect-ratio: 2 / 1; }
+.video-left .problem-card { padding: 28px; }
+.quote p { font-size: 1.25rem; }
+@media (min-width: 900px) { .video-left { align-self: center; } }
