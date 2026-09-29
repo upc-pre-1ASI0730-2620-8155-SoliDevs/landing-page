@@ -1019,3 +1019,17 @@ section:has(.video-layout) { padding-top: 64px; padding-bottom: 64px; }
 .cta-anim .cta-panel:not(.is-in) .cta-title, .cta-anim .cta-panel:not(.is-in) .cta-text, .cta-anim .cta-panel:not(.is-in) .cta-btn { opacity: 0; transform: translateY(16px); }
 @media (max-width: 700px) { .cta-panel { padding: 56px 22px; } .cta-ecg { height: 80px; } }
 @media (prefers-reduced-motion: reduce) { .cta-btn { animation: none; } }
+/* Footer v2 */
+.footer2 { position: relative; padding: 60px 0 26px; }
+.footer2::before { content: ""; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: linear-gradient(90deg, transparent, var(--accent), transparent); opacity: 0.6; }
+.footer2-top { display: grid; grid-template-columns: 1.6fr 1fr 1fr; gap: 48px; padding-bottom: 36px; border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
+.footer2-tag { max-width: 34ch; margin: 14px 0 0; font-size: 0.95rem; line-height: 1.6; color: var(--muted-on-dark); }
+.footer2-col { display: flex; flex-direction: column; gap: 10px; }
+.footer2-col h4 { margin: 0 0 6px; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); }
+.footer2-col a { width: fit-content; font-size: 0.95rem; color: var(--muted-on-dark); text-decoration: none; background: linear-gradient(currentColor, currentColor) 0 100% / 0 1px no-repeat; transition: background-size .3s ease, color .2s ease; }
+.footer2-col a:hover { color: var(--fg-on-dark); background-size: 100% 1px; }
+.footer2-bottom { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 16px; padding-top: 22px; }
+.footer2 .footer-copy { max-width: none; margin: 0; font-size: 0.85rem; color: var(--muted-on-dark); }
+.footer2-top-link { font-size: 0.85rem; color: var(--muted-on-dark); text-decoration: none; transition: color .2s ease; }
+.footer2-top-link:hover { color: var(--accent); }
+@media (max-width: 720px) { .footer2-top { grid-template-columns: 1fr 1fr; gap: 32px; } .footer2-brand { grid-column: 1 / -1; } }
