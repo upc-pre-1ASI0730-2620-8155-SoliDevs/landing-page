@@ -55,6 +55,10 @@ const I18N = {
     "video.kicker": "About the product",
     "video.title": "See Tri-Aid in action",
     "video.text": "Product demonstration video coming soon — live triage walkthrough with real workflows.",
+    "video.problem": "The problem",
+    "video.check1": "Automatic vital-sign capture",
+    "video.check2": "Assisted priority classification validated by triage staff",
+    "video.check3": "Routing to the right specialty",
 
     "features.title": "Everything the triage room needs",
     "f1.t": "Patient registration",
@@ -144,6 +148,10 @@ const I18N = {
     "video.kicker": "Sobre el producto",
     "video.title": "Mira Tri-Aid en acción",
     "video.text": "Video de demostración del producto próximamente: recorrido de triaje en vivo con flujos reales.",
+    "video.problem": "El problema",
+    "video.check1": "Captura automática de signos vitales",
+    "video.check2": "Clasificación de prioridad asistida validada por el personal de triaje",
+    "video.check3": "Derivación a la especialidad correcta",
 
     "features.title": "Todo lo que la sala de triaje necesita",
     "f1.t": "Registro de pacientes",
