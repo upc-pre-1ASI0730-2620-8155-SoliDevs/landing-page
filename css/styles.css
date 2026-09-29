@@ -925,3 +925,5 @@ ul, ol { list-style: none; }
 section:has(.video-layout) { padding-top: 64px; padding-bottom: 64px; }
 .video-layout { margin-top: 20px; }
 .stats-band { padding: 52px 0; }
+/* Quote right under the problem card */
+.video-left { align-self: start; justify-content: flex-start; gap: 24px; }
