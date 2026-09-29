@@ -905,3 +905,6 @@ ul, ol { list-style: none; }
 .stat-num small { margin-left: 6px; font-size: 0.4em; font-weight: 600; color: var(--accent); }
 .stat-label { max-width: 190px; margin: 12px auto 0; line-height: 1.45; }
 @media (max-width: 700px) { .stats-grid { gap: 28px; } .stats-grid > div + div { border-left: 0; } }
+/* Quote polish */
+.quote p, .quote cite { font-family: inherit; }
+.quote cite { margin-top: 16px; letter-spacing: 0.02em; }
