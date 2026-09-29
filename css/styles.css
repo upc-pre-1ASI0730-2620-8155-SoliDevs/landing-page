@@ -916,3 +916,12 @@ ul, ol { list-style: none; }
 .problem-card p { font-size: 0.95rem; line-height: 1.6; }
 .video-card h3 { margin-bottom: 10px; }
 .video-desc { margin: 0 0 18px; font-size: 0.98rem; line-height: 1.6; color: var(--muted-on-dark); }
+/* Tighter video section */
+.video-left { align-self: stretch; justify-content: space-between; gap: 20px; }
+.video-card { padding: 24px; }
+.video-card .video-link { aspect-ratio: 21 / 9; }
+.video-desc { color: rgba(255, 255, 255, 0.82); }
+.check-list { margin-bottom: 18px; }
+section:has(.video-layout) { padding-top: 64px; padding-bottom: 64px; }
+.video-layout { margin-top: 20px; }
+.stats-band { padding: 52px 0; }
