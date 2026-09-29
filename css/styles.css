@@ -826,3 +826,32 @@ ul, ol { list-style: none; }
 }
 .video-frame svg { display: block; width: 64px; height: 64px; color: var(--accent); margin: 0 auto 14px; }
 .video-frame p { max-width: 46ch; margin: 0 auto; color: var(--muted-on-dark); }
+
+/* Video section layout */
+.video-layout {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 28px;
+  margin-top: 28px;
+  align-items: start;
+}
+.problem-card {
+  padding: 26px;
+  border-radius: 16px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+}
+.problem-card svg { width: 28px; height: 28px; color: var(--accent-ink); margin-bottom: 12px; }
+.problem-card h3 { font-family: var(--font-display); margin: 0 0 8px; color: var(--fg); }
+.problem-card p { margin: 0; color: var(--muted); }
+.video-card {
+  padding: 28px;
+  border-radius: 18px;
+  background: var(--ink-deep);
+  color: var(--fg-on-dark);
+}
+.video-card h3 { font-family: var(--font-display); margin: 0 0 16px; color: var(--fg-on-dark); }
+.check-list { list-style: none; margin: 0 0 22px; padding: 0; display: grid; gap: 10px; }
+.check-list li { display: flex; gap: 10px; align-items: flex-start; color: var(--fg-on-dark); }
+.check-list svg { flex: none; width: 20px; height: 20px; margin-top: 2px; color: var(--accent); }
+.video-card .video-frame { max-width: none; margin-top: 0; background: var(--ink-panel); }
