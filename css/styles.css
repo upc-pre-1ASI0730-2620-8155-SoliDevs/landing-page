@@ -879,3 +879,29 @@ ul, ol { list-style: none; }
 /* Stats band polish */
 .stats-band { background: linear-gradient(135deg, var(--accent-ink), var(--ink-deep)); }
 .stat-num { font-variant-numeric: tabular-nums; text-shadow: 0 2px 12px rgba(0, 0, 0, 0.25); }
+/* Video section v3 */
+.video-left { display: flex; flex-direction: column; gap: 28px; }
+.video-left .problem-card { flex: 1 1 auto; display: flex; flex-direction: column; justify-content: center; padding: 34px; }
+.problem-card svg { width: 36px; height: 36px; margin-bottom: 16px; }
+.problem-card h3 { font-size: 1.4rem; margin-bottom: 12px; }
+.problem-card p { font-size: 1.05rem; line-height: 1.75; }
+.quote { margin: 0; padding: 6px 0 6px 22px; border-left: 4px solid var(--accent); }
+.quote p { margin: 0; font-size: 1.15rem; line-height: 1.6; font-style: italic; color: var(--fg); }
+.quote cite { display: block; margin-top: 12px; font-style: normal; font-weight: 600; font-size: 0.85rem; color: var(--accent-ink); }
+
+/* YouTube-style placeholder */
+.video-link { background: radial-gradient(circle at 50% 40%, #2b2b2b, #0b0b0b); border-color: rgba(255, 255, 255, 0.08); }
+.video-link__play { top: 50%; width: 68px; height: 48px; border-radius: 14px; border: 0; background: #f00; }
+.video-link__play::after { display: none; animation: none; }
+.video-link__play svg { width: 24px; height: 24px; margin-left: 2px; color: #fff; }
+.video-link:hover .video-link__play { background: #cc0000; transform: translate(-50%, -50%) scale(1.06); }
+
+/* Stats band v3 */
+.stats-band { padding: 72px 0; }
+.stats-grid { gap: 0; }
+.stats-grid > div { padding: 8px 24px; }
+.stats-grid > div + div { border-left: 1px solid rgba(255, 255, 255, 0.14); }
+.stat-num { font-size: clamp(2.6rem, 6vw, 4rem); line-height: 1.1; }
+.stat-num small { margin-left: 6px; font-size: 0.4em; font-weight: 600; color: var(--accent); }
+.stat-label { max-width: 190px; margin: 12px auto 0; line-height: 1.45; }
+@media (max-width: 700px) { .stats-grid { gap: 28px; } .stats-grid > div + div { border-left: 0; } }
