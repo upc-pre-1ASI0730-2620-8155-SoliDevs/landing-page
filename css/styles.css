@@ -1041,3 +1041,13 @@ section:has(.video-layout) { padding-top: 64px; padding-bottom: 64px; }
 .cta-anim .cta-btn, .cta-btn { animation: none; transition: none; }
 .cta-btn:hover svg { transform: none; }
 .cta-anim .cta-panel:not(.is-in) .cta-btn { opacity: 1; transform: none; }
+/* CTA layout tweak: line between title and text, button reveal only */
+.cta-panel { display: flex; flex-direction: column; align-items: center; padding: 68px 40px 84px; }
+.cta-title { order: 1; margin: 0 auto; }
+.cta-ecg { order: 2; position: relative; top: auto; left: auto; transform: none; flex: none; align-self: center; width: calc(100% + 80px); height: 44px; margin: 0; }
+.cta-text { order: 3; margin: 0 auto 34px; }
+.cta-btn { order: 4; }
+.cta-anim .cta-btn { transition: opacity .7s ease 1.4s, transform .7s ease 1.4s; }
+.cta-anim .cta-panel:not(.is-in) .cta-btn { opacity: 0; transform: translateY(16px); }
+.cta-btn:hover { background: #fff; }
+@media (max-width: 700px) { .cta-panel { padding: 48px 22px 56px; } .cta-ecg { width: calc(100% + 44px); height: 32px; } }
