@@ -59,6 +59,10 @@ const I18N = {
     "video.check1": "Automatic vital-sign capture",
     "video.check2": "Assisted priority classification validated by triage staff",
     "video.check3": "Routing to the right specialty",
+    "band.1": "min. target triage time",
+    "band.2": "level priority scale",
+    "band.3": "manual transcription",
+    "band.4": "patient visibility",
 
     "features.title": "Everything the triage room needs",
     "f1.t": "Patient registration",
@@ -152,6 +156,10 @@ const I18N = {
     "video.check1": "Captura automática de signos vitales",
     "video.check2": "Clasificación de prioridad asistida validada por el personal de triaje",
     "video.check3": "Derivación a la especialidad correcta",
+    "band.1": "min. de tiempo objetivo de triaje",
+    "band.2": "niveles en la escala de prioridad",
+    "band.3": "transcripción manual",
+    "band.4": "visibilidad para el paciente",
 
     "features.title": "Todo lo que la sala de triaje necesita",
     "f1.t": "Registro de pacientes",
