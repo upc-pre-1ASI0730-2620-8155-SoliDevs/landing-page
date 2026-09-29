@@ -824,5 +824,5 @@ ul, ol { list-style: none; }
   color: var(--fg-on-dark);
   text-align: center;
 }
-.video-frame svg { width: 64px; height: 64px; color: var(--accent); margin-bottom: 14px; }
+.video-frame svg { display: block; width: 64px; height: 64px; color: var(--accent); margin: 0 auto 14px; }
 .video-frame p { max-width: 46ch; margin: 0 auto; color: var(--muted-on-dark); }
