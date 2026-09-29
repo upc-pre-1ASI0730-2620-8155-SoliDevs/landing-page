@@ -42,8 +42,6 @@ const I18N = {
     "plan.institutional.cta": "Contact sales",
     "nav.contact": "Contact",
     "nav.team": "Team",
-    "auth.login": "Log in",
-    "auth.register": "Register",
 
     "hero.h1": "From vital signs to the right specialty — automatically.",
     "hero.text": "Tri-Aid registers patients, captures vital signs automatically from medical measurement instruments, classifies priority and routes each patient to the right specialty — with instant alerts when any value is out of range.",
@@ -130,8 +128,6 @@ const I18N = {
     "plan.institutional.cta": "Contactar a ventas",
     "nav.contact": "Contacto",
     "nav.team": "Equipo",
-    "auth.login": "Iniciar sesión",
-    "auth.register": "Registrarse",
 
     "hero.h1": "Del instrumento a la especialidad correcta — automáticamente.",
     "hero.text": "Tri-Aid registra a los pacientes, captura automáticamente sus signos vitales desde los instrumentos de medición, clasifica la prioridad y deriva a cada paciente a la especialidad correcta — con alertas inmediatas cuando un valor está fuera de rango.",
