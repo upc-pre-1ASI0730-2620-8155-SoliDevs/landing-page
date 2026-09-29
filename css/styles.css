@@ -1033,3 +1033,11 @@ section:has(.video-layout) { padding-top: 64px; padding-bottom: 64px; }
 .footer2-top-link { font-size: 0.85rem; color: var(--muted-on-dark); text-decoration: none; transition: color .2s ease; }
 .footer2-top-link:hover { color: var(--accent); }
 @media (max-width: 720px) { .footer2-top { grid-template-columns: 1fr 1fr; gap: 32px; } .footer2-brand { grid-column: 1 / -1; } }
+/* CTA button v2 (static, no animation) */
+.cta-btn { gap: 16px; padding: 8px 8px 8px 30px; border-radius: 999px; background: #fff; color: var(--ink-deep); font-size: 1.02rem; font-weight: 700; letter-spacing: 0.01em; box-shadow: 0 10px 24px rgba(0, 0, 0, 0.28); }
+.cta-btn svg { width: 40px; height: 40px; padding: 10px; border-radius: 50%; background: var(--accent-ink); color: #fff; }
+.cta-btn:hover { background: #eafaf0; }
+.cta-btn:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+.cta-anim .cta-btn, .cta-btn { animation: none; transition: none; }
+.cta-btn:hover svg { transform: none; }
+.cta-anim .cta-panel:not(.is-in) .cta-btn { opacity: 1; transform: none; }
