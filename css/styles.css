@@ -861,3 +861,18 @@ ul, ol { list-style: none; }
 .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 32px; text-align: center; }
 .stat-num { display: block; font-family: var(--font-display); font-size: clamp(2rem, 5vw, 3rem); font-weight: 700; color: var(--fg-on-dark); }
 .stat-label { display: block; margin-top: 6px; font-size: 0.8rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted-on-dark); }
+
+/* Video section polish */
+.video-layout { align-items: stretch; gap: 32px; }
+.problem-card { background: #fff; box-shadow: 0 10px 30px rgba(10, 40, 25, 0.08); }
+.video-card { background: linear-gradient(145deg, var(--accent-ink), var(--ink-deep)); box-shadow: 0 18px 44px rgba(10, 40, 25, 0.25); }
+.video-card h3 { font-size: 1.5rem; }
+.video-link { position: relative; display: block; aspect-ratio: 16 / 9; border-radius: 12px; overflow: hidden; text-decoration: none; color: var(--fg-on-dark); background: linear-gradient(160deg, var(--ink-panel), var(--ink-deep)); border: 1px solid rgba(255, 255, 255, 0.12); transition: transform .25s ease, box-shadow .25s ease; }
+.video-link:hover, .video-link:focus-visible { transform: translateY(-3px); box-shadow: 0 16px 36px rgba(0, 0, 0, 0.35); }
+.video-link__play { position: absolute; top: 42%; left: 50%; transform: translate(-50%, -50%); width: 76px; height: 76px; border-radius: 50%; display: grid; place-items: center; background: rgba(255, 255, 255, 0.14); border: 2px solid var(--accent); transition: transform .25s ease, background .25s ease; }
+.video-link__play::after { content: ""; position: absolute; inset: -2px; border-radius: 50%; border: 2px solid var(--accent); animation: play-pulse 2.2s ease-out infinite; }
+.video-link__play svg { width: 32px; height: 32px; margin-left: 4px; color: #fff; }
+.video-link:hover .video-link__play { transform: translate(-50%, -50%) scale(1.08); background: rgba(255, 255, 255, 0.22); }
+.video-link__text { position: absolute; left: 0; right: 0; bottom: 18px; margin: 0; padding: 0 20px; text-align: center; font-size: 0.85rem; color: var(--muted-on-dark); }
+@keyframes play-pulse { 0% { transform: scale(1); opacity: .7; } 100% { transform: scale(1.6); opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { .video-link__play::after { animation: none; } .video-link { transition: none; } }
