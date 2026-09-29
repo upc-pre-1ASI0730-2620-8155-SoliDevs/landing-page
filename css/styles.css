@@ -927,3 +927,10 @@ section:has(.video-layout) { padding-top: 64px; padding-bottom: 64px; }
 .stats-band { padding: 52px 0; }
 /* Quote right under the problem card */
 .video-left { align-self: start; justify-content: flex-start; gap: 24px; }
+/* Taller, better proportioned green card */
+.video-card { display: flex; flex-direction: column; padding: 34px; }
+.video-card h3 { font-size: 1.7rem; margin-bottom: 14px; }
+.video-desc { margin-bottom: 24px; font-size: 1rem; line-height: 1.7; }
+.check-list { gap: 16px; margin-bottom: 30px; }
+.check-list li { font-size: 1.02rem; }
+.video-card .video-link { aspect-ratio: 16 / 9; margin-top: auto; }
