@@ -5,7 +5,8 @@
 
   const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   const fmt = (el, v) => {
-    el.textContent = (el.dataset.prefix || '') + Math.round(v) + (el.dataset.suffix || '');
+    const unit = el.dataset.unit ? '<small>' + el.dataset.unit + '</small>' : '';
+    el.innerHTML = Math.round(v) + (el.dataset.suffix || '') + unit;
   };
   const run = (el, i) => {
     const to = Number(el.dataset.count);
