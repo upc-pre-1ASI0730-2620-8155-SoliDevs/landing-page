@@ -81,6 +81,7 @@ const I18N = {
 
     "team.subtitle": "The people behind Tri-Aid, the bridge between measurement instruments and emergency care.",
     "team.role": "Team member",
+    "team.roleLeader": "Team Leader",
     "team.desc": "UPC student building Tri-Aid as part of the SoliDevs team.",
     "team.roleEnrique": "Full Stack & Infrastructure",
     "team.descEnrique": "Builds the web interfaces in Vue.js 3 and the server and database in .NET, supporting IoT integration and deployment.",
@@ -193,6 +194,7 @@ const I18N = {
 
     "team.subtitle": "Las personas detrás de Tri-Aid, el puente entre los instrumentos de medición y la atención de emergencia.",
     "team.role": "Integrante del equipo",
+    "team.roleLeader": "Líder de equipo",
     "team.desc": "Estudiante de UPC que desarrolla Tri-Aid como parte del equipo SoliDevs.",
     "team.roleEnrique": "Full Stack e Infraestructura",
     "team.descEnrique": "Desarrolla las interfaces web en Vue.js 3 y el servidor y la base de datos en .NET, apoyando la integración IoT y el despliegue.",
