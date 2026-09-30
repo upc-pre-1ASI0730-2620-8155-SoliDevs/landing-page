@@ -1059,3 +1059,5 @@ section:has(.video-layout) { padding-top: 64px; padding-bottom: 64px; }
 /* Photo avatar: smaller photo anchored at the bottom, less zoom */
 .team2-avatar:has(img) { background: url("../img/enrique.jpg") center bottom / 74% auto no-repeat, #fff; }
 .team2-avatar:has(img) img { display: none; }
+/* Photo avatar v3: show shoulders */
+.team2-avatar:has(img) { background: url("../img/enrique.jpg") center 85% / 70% auto no-repeat, #fff; }
