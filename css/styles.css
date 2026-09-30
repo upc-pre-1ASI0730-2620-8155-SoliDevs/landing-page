@@ -1061,3 +1061,9 @@ section:has(.video-layout) { padding-top: 64px; padding-bottom: 64px; }
 .team2-avatar:has(img) img { display: none; }
 /* Photo avatar v3: show shoulders */
 .team2-avatar:has(img) { background: url("../img/enrique.jpg?v=2") center 85% / 70% auto no-repeat, #fff; }
+/* CTA ECG: continuous monitor scroll */
+.cta-ecg { --ecg-w: 320px; opacity: 0.6; background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='320' height='44' viewBox='0 0 320 44'%3E%3Cpath d='M0 26H105q8-8 16 0H150l5 4 7-26 8 36 6-14H196q14-12 28 0H320' fill='none' stroke='%2334c26f' stroke-width='2' stroke-linejoin='round' stroke-linecap='round'/%3E%3C/svg%3E") repeat-x 0 50% / var(--ecg-w) auto; -webkit-mask-image: linear-gradient(90deg, transparent, #000 14%, #000 86%, transparent); mask-image: linear-gradient(90deg, transparent, #000 14%, #000 86%, transparent); animation: cta-ecg-run 4.5s linear infinite; }
+.cta-ecg path { display: none; }
+@keyframes cta-ecg-run { from { background-position-x: 0; } to { background-position-x: calc(var(--ecg-w) * -1); } }
+@media (max-width: 700px) { .cta-ecg { --ecg-w: 240px; } }
+@media (prefers-reduced-motion: reduce) { .cta-ecg { animation: none; } }
