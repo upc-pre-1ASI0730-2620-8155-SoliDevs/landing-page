@@ -85,7 +85,8 @@ const I18N = {
     "team.desc": "UPC student building Tri-Aid as part of the SoliDevs team.",
     "team.roleEnrique": "Full Stack & Infrastructure",
     "team.descEnrique": "Builds the web interfaces in Vue.js 3 and the server and database in .NET, supporting IoT integration and deployment.",
-    "team.title": "The SoliDevs team",
+    "team.descNicolas": "University student and team leader of SoliDev's team, responsible for coordinating the project, organizing tasks among members, and ensuring all delivery objectives are met on time.",
+     "team.title": "The SoliDevs team",
 
 
 
@@ -198,6 +199,7 @@ const I18N = {
     "team.desc": "Estudiante de UPC que desarrolla Tri-Aid como parte del equipo SoliDevs.",
     "team.roleEnrique": "Full Stack e Infraestructura",
     "team.descEnrique": "Desarrolla las interfaces web en Vue.js 3 y el servidor y la base de datos en .NET, apoyando la integración IoT y el despliegue.",
+    "team.descNicolas": "Estudiante universitario y líder del equipo SoliDevs, encargado de coordinar el proyecto, organizar las tareas entre los miembros y asegurar que todos los objetivos de entrega se cumplan a tiempo.", 
     "team.title": "El equipo de SoliDevs",
 
 
