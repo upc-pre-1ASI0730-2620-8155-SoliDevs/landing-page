@@ -41,7 +41,7 @@ const I18N = {
     "plan.institutional.f2": "API integration with hospital systems",
     "plan.institutional.f3": "SLA + dedicated onboarding",
     "plan.institutional.cta": "Contact sales",
-    "nav.contact": "Contact",
+    "nav.contact": "Get started",
     "nav.team": "Team",
 
     "hero.h1": "From vital signs to the right specialty — automatically.",
@@ -153,7 +153,7 @@ const I18N = {
     "plan.institutional.f2": "Integración por API con sistemas hospitalarios",
     "plan.institutional.f3": "SLA + onboarding dedicado",
     "plan.institutional.cta": "Contactar a ventas",
-    "nav.contact": "Contacto",
+    "nav.contact": "Comenzar",
     "nav.team": "Equipo",
 
     "hero.h1": "Del instrumento a la especialidad correcta — automáticamente.",
