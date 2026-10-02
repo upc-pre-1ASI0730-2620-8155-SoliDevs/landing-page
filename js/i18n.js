@@ -81,6 +81,9 @@ const I18N = {
 
     "team.subtitle": "The people behind Tri-Aid, the bridge between measurement instruments and emergency care.",
     "team.role": "Team member",
+    "team.videoKicker": "About the team",
+    "team.videoTitle": "The people behind the pulse",
+    "team.videoText": "SoliDevs is a team of UPC Software Engineering students building Tri-Aid: a platform that connects measurement instruments with emergency care. In this video we introduce ourselves and tell you why we decided to take on the triage problem.",
     "team.roleLeader": "Team Leader",
     "team.desc": "UPC student building Tri-Aid as part of the SoliDevs team.",
     "team.roleEnrique": "Full Stack & Infrastructure",
@@ -195,6 +198,9 @@ const I18N = {
 
     "team.subtitle": "Las personas detrás de Tri-Aid, el puente entre los instrumentos de medición y la atención de emergencia.",
     "team.role": "Integrante del equipo",
+    "team.videoKicker": "Sobre el equipo",
+    "team.videoTitle": "Las personas detrás del pulso",
+    "team.videoText": "SoliDevs es un equipo de estudiantes de Ingeniería de Software de la UPC que construye Tri-Aid: una plataforma que conecta los instrumentos de medición con la atención de emergencias. En este video nos presentamos y te contamos por qué decidimos hacerse cargo del problema del triaje.",
     "team.roleLeader": "Líder de equipo",
     "team.desc": "Estudiante de UPC que desarrolla Tri-Aid como parte del equipo SoliDevs.",
     "team.roleEnrique": "Full Stack e Infraestructura",
