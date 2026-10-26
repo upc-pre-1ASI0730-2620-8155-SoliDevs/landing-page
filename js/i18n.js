@@ -101,6 +101,7 @@ const I18N = {
     "cta.btn": "Go to the application",
 
     "footer.terms": "Terms & Conditions",
+    "footer.privacy": "Privacy Policy",
     "footer.report": "Project report",
     "footer.copy": "© 2026 SoliDevs — Universidad Peruana de Ciencias Aplicadas. All rights reserved.",
     "footer.tagline": "From the instrument to the right specialty — automatically.",
@@ -118,7 +119,18 @@ const I18N = {
     "t4.t": "Limitations",
     "t4.x": "Tri-Aid supports the triage process only. It does not replace hospital clinical management, medical diagnosis, or the official emergency channels.",
     "t5.t": "Changes",
-    "t5.x": "SoliDevs may update these terms as the product evolves. Institutions will be notified of material changes before they take effect."
+    "t5.x": "SoliDevs may update these terms as the product evolves. Institutions will be notified of material changes before they take effect.",
+    "prv.title": "Privacy Policy",
+    "p1.t": "Data we collect",
+    "p1.x": "Tri-Aid processes only the information required for triage care: identification data, arrival context, vital sign readings and referral records. No data unrelated to the emergency care process is collected.",
+    "p2.t": "Purpose of the data",
+    "p2.x": "Patient data is used exclusively to register the arrival, capture and evaluate vital signs, classify priority and route the patient to the right specialty. It is never used for advertising or profiling purposes.",
+    "p3.t": "Access and control",
+    "p3.x": "Access to patient information is restricted to authorized health personnel of the institution. Patients may request access, correction or deletion of their personal data through the institution that registered them.",
+    "p4.t": "Data retention",
+    "p4.x": "Clinical records are kept only for the period required by the health institution and applicable regulations. Demo or evaluation data may be purged without prior notice.",
+    "p5.t": "Changes",
+    "p5.x": "SoliDevs may update this policy as the product evolves. Institutions will be notified of material changes before they take effect."
   },
 
   es: {
@@ -218,6 +230,7 @@ const I18N = {
     "cta.btn": "Ir a la aplicación",
 
     "footer.terms": "Términos y Condiciones",
+    "footer.privacy": "Política de Privacidad",
     "footer.report": "Informe del proyecto",
     "footer.copy": "© 2026 SoliDevs — Universidad Peruana de Ciencias Aplicadas. Todos los derechos reservados.",
     "footer.tagline": "Del instrumento a la especialidad correcta — automáticamente.",
@@ -235,7 +248,18 @@ const I18N = {
     "t4.t": "Limitaciones",
     "t4.x": "Tri-Aid da soporte únicamente al proceso de triaje. No reemplaza la gestión clínica hospitalaria, el diagnóstico médico ni los canales oficiales de emergencia.",
     "t5.t": "Cambios",
-    "t5.x": "SoliDevs podrá actualizar estos términos conforme evolucione el producto. Las instituciones serán notificadas de los cambios relevantes antes de su entrada en vigencia."
+    "t5.x": "SoliDevs podrá actualizar estos términos conforme evolucione el producto. Las instituciones serán notificadas de los cambios relevantes antes de su entrada en vigencia.",
+    "prv.title": "Política de Privacidad",
+    "p1.t": "Datos que recopilamos",
+    "p1.x": "Tri-Aid procesa únicamente la información requerida para la atención de triaje: datos de identificación, contexto de llegada, lecturas de signos vitales y registros de derivación. No se recopila data ajena al proceso de atención de emergencias.",
+    "p2.t": "Finalidad de los datos",
+    "p2.x": "Los datos del paciente se usan exclusivamente para registrar la llegada, capturar y evaluar los signos vitales, clasificar la prioridad y derivar al paciente a la especialidad correcta. Nunca se usan con fines publicitarios ni de perfilado.",
+    "p3.t": "Acceso y control",
+    "p3.x": "El acceso a la información del paciente está restringido al personal de salud autorizado de la institución. Los pacientes pueden solicitar el acceso, corrección o eliminación de sus datos personales a través de la institución que los registró.",
+    "p4.t": "Conservación de datos",
+    "p4.x": "Los registros clínicos se conservan solo por el periodo que requiera la institución de salud y la normativa aplicable. Los datos de demostración o evaluación pueden purgarse sin aviso previo.",
+    "p5.t": "Cambios",
+    "p5.x": "SoliDevs podrá actualizar esta política conforme evolucione el producto. Las instituciones serán notificadas de los cambios relevantes antes de su entrada en vigencia."
   }
 };
 
