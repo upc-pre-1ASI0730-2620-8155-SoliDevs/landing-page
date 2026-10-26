@@ -1,0 +1,100 @@
+/* ============================================================
+   Tri-Aid · Wireframes — tokens
+   Base: landing real (triaid-landing/css/styles.css), verbatim.
+   Extensión: escala semántica de triaje I–V y vocabulario
+   estructural de los wireframes, afinado al ritmo de la landing.
+   ============================================================ */
+
+:root {
+  /* ---------- Tokens de la landing (verbatim) ---------- */
+  --bg:            #EFF6F1;
+  --surface:       #FBFDFC;
+  --surface-sunk:  #E7F0EA;
+  --ink-panel:     #0A221A;
+  --ink-deep:      #193026;
+
+  --fg:            #0C1912;
+  --muted:         #4B5951;
+  --fg-on-dark:    #E0EBE3;
+  --muted-on-dark: #9EB0A3;
+
+  --border:        #D9E2DD;
+  --border-strong: #B8C5BC;
+  --line-on-dark-btn: rgba(234, 255, 243, 0.28);
+  --grid-page:     rgba(29, 107, 79, 0.058);
+  --pulse-on-ink:  #eafff3;
+
+  --accent:        #35C26D;   /* trazo ECG — indicadores vivos, sobre tinta */
+  --accent-ink:    #086733;   /* texto-seguro / botones / enlaces */
+  --accent-soft:   #D3F1D9;
+  --accent-deep:   #005124;   /* hover del botón primario (landing) */
+
+  --info:          #58A7DC;
+
+  --font-display: 'Space Grotesk', 'Avenir Next', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  --font-body:    -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', system-ui, sans-serif;
+  --font-mono:    'IBM Plex Mono', ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+
+  --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+
+  --container: 1120px;
+  --nav-h: 50px;
+
+  /* ---------- Escala semántica de triaje (I–V, texto-seguros sobre papel) ---------- */
+  --danger:  #B3373A;   /* I  · Resucitación */
+  --orange:  #B25410;   /* II · Emergencia */
+  --warn:    #9A6700;   /* III· Urgente */
+  --success: #0E7A45;   /* IV · Menos urgente */
+  --meta:    #2D6A8A;   /* V  · No urgente */
+
+  /* ---------- Vocabulario estructural de los wireframes ---------- */
+  --fg-2: #3D4C44;
+  --accent-on: #ffffff;
+  --accent-t: var(--accent-ink);
+  --surface-warm: var(--surface-sunk);
+  --border-soft: #E9F0EB;
+  --on-dark-2: var(--muted-on-dark);
+
+  --focus-ring: 0 0 0 2px var(--accent-ink), 0 0 0 6px rgba(8, 103, 51, 0.14);
+  --elev-ring: 0 0 0 1px var(--border);
+  --elev-raised: 0 14px 34px -18px rgba(16, 46, 36, 0.22);
+
+  --motion-fast: 200ms;
+  --motion-base: 240ms;
+  --ease-standard: var(--ease-out);
+
+  --text-xs: 12px;
+  --text-sm: 14px;
+  --text-base: 16px;
+  --text-lg: 18px;
+  --text-xl: 24px;
+  --text-2xl: 36px;
+  --text-3xl: 54px;
+
+  --leading-body: 1.62;
+  --leading-tight: 1.06;
+  --tracking-display: -0.018em;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+
+  --section-y-desktop: 96px;
+  --section-y-tablet: 68px;
+  --section-y-phone: 48px;
+
+  --radius-sm: 10px;
+  --radius-md: 12px;
+  --radius-lg: 15px;
+  --radius-pill: 9999px;
+
+  --container-max: var(--container);
+  --container-gutter-desktop: clamp(20px, 5vw, 40px);
+  --container-gutter-tablet: 24px;
+  --container-gutter-phone: 16px;
+}
