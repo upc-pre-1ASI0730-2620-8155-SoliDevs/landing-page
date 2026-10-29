@@ -799,7 +799,7 @@ ul, ol { list-style: none; }
 }
 
 /* ================= PLANS (suscripción) ================= */
-.plans-sub { color: var(--ink-deep, #193026); opacity: .75; max-width: 640px; margin: 0 auto 42px; text-align: center; }
+.plans-sub { color: var(--ink-deep, #193026); opacity: .75; max-width: 640px; margin: 20px auto 42px; text-align: center; }
 .plans-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; align-items: stretch; }
 .plan-card { position: relative; display: flex; flex-direction: column; gap: 10px; background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 28px 24px; transition: transform .25s ease, box-shadow .25s ease; }
 .plan-card:hover { transform: translateY(-6px); box-shadow: 0 14px 34px rgba(10, 34, 26, .12); }
@@ -1076,28 +1076,3 @@ section:has(.video-layout) { padding-top: 64px; padding-bottom: 64px; }
 @keyframes cta-ecg-run { from { background-position-x: 0; } to { background-position-x: calc(var(--ecg-w) * -1); } }
 @media (max-width: 700px) { .cta-ecg { --ecg-w: 240px; } }
 @media (prefers-reduced-motion: reduce) { .cta-ecg { animation: none; } }
-/* Plans: 14-day free trial banner */
-.trial-banner {
-  display: flex;
-  align-items: center;
-  gap: 18px;
-  margin: 8px auto 30px;
-  max-width: 860px;
-  padding: 20px 26px;
-  border-radius: 18px;
-  background: var(--surface, #fff);
-  border: 1px solid rgba(10, 107, 56, .14);
-  border-left: 4px solid var(--accent-ink, #0a6b38);
-  box-shadow: 0 14px 34px rgba(10, 40, 25, .10);
-}
-.trial-banner__icon { width: 44px; height: 44px; flex: none; color: var(--accent-ink, #0a6b38); }
-.trial-banner__icon rect { fill: rgba(52, 210, 123, .12); stroke: none; }
-.trial-banner__icon path { stroke: currentColor; stroke-width: 2.4; }
-.trial-banner__text { display: flex; flex-direction: column; gap: 3px; }
-.trial-banner__text strong { font-size: 1.02rem; color: var(--ink-panel, #10231a); }
-.trial-banner__text span { font-size: .88rem; color: var(--ink-deep, #0a2118); opacity: .65; }
-.trial-banner__cta { margin-left: auto; flex: none; white-space: nowrap; }
-@media (max-width: 760px) {
-  .trial-banner { flex-direction: column; text-align: center; padding: 22px; }
-  .trial-banner__cta { margin-left: 0; }
-}
