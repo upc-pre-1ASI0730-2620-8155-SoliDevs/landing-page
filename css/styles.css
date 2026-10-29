@@ -1076,3 +1076,24 @@ section:has(.video-layout) { padding-top: 64px; padding-bottom: 64px; }
 @keyframes cta-ecg-run { from { background-position-x: 0; } to { background-position-x: calc(var(--ecg-w) * -1); } }
 @media (max-width: 700px) { .cta-ecg { --ecg-w: 240px; } }
 @media (prefers-reduced-motion: reduce) { .cta-ecg { animation: none; } }
+/* Plans: 14-day free trial banner */
+.trial-banner {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin: 22px auto 26px;
+  max-width: 880px;
+  padding: 18px 24px;
+  border-radius: 16px;
+  background: linear-gradient(135deg, rgba(10, 107, 56, .08), rgba(52, 210, 123, .12));
+  border: 1px solid rgba(10, 107, 56, .25);
+}
+.trial-banner__gift { font-size: 1.7rem; flex: none; }
+.trial-banner__text { display: flex; flex-direction: column; gap: 3px; }
+.trial-banner__text strong { font-size: 1rem; }
+.trial-banner__text span { font-size: .88rem; opacity: .8; }
+.trial-banner__cta { margin-left: auto; flex: none; white-space: nowrap; }
+@media (max-width: 700px) {
+  .trial-banner { flex-direction: column; text-align: center; }
+  .trial-banner__cta { margin-left: 0; }
+}
