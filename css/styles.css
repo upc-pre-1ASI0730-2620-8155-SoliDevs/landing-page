@@ -1078,6 +1078,6 @@ section:has(.video-layout) { padding-top: 64px; padding-bottom: 64px; }
 @media (prefers-reduced-motion: reduce) { .cta-ecg { animation: none; } }
 
 /* Final CTA: patient portal secondary link */
-.cta-actions { display: flex; align-items: center; justify-content: center; gap: 18px; flex-wrap: wrap; order: 4; margin-top: 26px; }
+.cta-actions { display: flex; justify-content: center; order: 4; margin-top: 26px; }
 .cta-secondary { display: inline-flex; align-items: center; padding: 14px 28px; border-radius: 14px; border: 2px solid rgba(255,255,255,.55); color: #fff; font-weight: 600; font-size: 1rem; text-decoration: none; transition: border-color .2s ease, background .2s ease; }
 .cta-secondary:hover { border-color: #fff; background: rgba(255,255,255,.08); }
