@@ -61,6 +61,7 @@ const I18N = {
     "video.check1": "Automatic vital-sign capture",
     "video.check2": "Assisted priority classification validated by triage staff",
     "video.check3": "Routing to the right specialty",
+    "video.watch": "Watch the About-the-Product video",
     "video.quote": "Every minute spent retyping vital signs is a minute the patient does not have.",
     "video.desc": "Tri-Aid connects measurement instruments with emergency care: it registers each patient, captures vital signs automatically, classifies priority and routes them to the right specialty, with instant alerts when a value is out of range.",
     "band.1": "maximum target triage time",
@@ -83,6 +84,7 @@ const I18N = {
     "team.subtitle": "The people behind Tri-Aid, the bridge between measurement instruments and emergency care.",
     "team.role": "Team member",
     "team.videoKicker": "About the team",
+    "team.videoTitle": "The people behind the pulse",
     "team.videoTitle": "The people behind the pulse",
     "team.videoText": "SoliDevs is a team of UPC Software Engineering students building Tri-Aid: a platform that connects measurement instruments with emergency care. In this video we introduce ourselves and tell you why we decided to take on the triage problem.",
     "team.roleLeader": "Team Leader",
@@ -261,7 +263,9 @@ const I18N = {
     "p4.t": "Conservación de datos",
     "p4.x": "Los registros clínicos se conservan solo por el periodo que requiera la institución de salud y la normativa aplicable. Los datos de demostración o evaluación pueden purgarse sin aviso previo.",
     "p5.t": "Cambios",
-    "p5.x": "SoliDevs podrá actualizar esta política conforme evolucione el producto. Las instituciones serán notificadas de los cambios relevantes antes de su entrada en vigencia."
+    "p5.x": "SoliDevs podrá actualizar esta política conforme evolucione el producto. Las instituciones serán notificadas de los cambios relevantes antes de su entrada en vigencia.",
+    "video.watch": "Ver el video About the Product",
+    "team.videoTitle": "The people behind the pulse",
   }
 };
 
