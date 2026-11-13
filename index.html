@@ -35,6 +35,7 @@
       </nav>
 
       <div class="nav-actions">
+        <a class="btn btn-primary nav-cta" href="https://triaid-solidevs.web.app" target="_blank" rel="noopener noreferrer" data-i18n="nav.contact">Get started</a>
         <div class="lang-toggle" role="group" aria-label="Language / Idioma">
           <button type="button" class="lang-btn" data-lang-btn="en" aria-pressed="true">EN</button>
           <button type="button" class="lang-btn" data-lang-btn="es" aria-pressed="false">ES</button>
@@ -54,6 +55,7 @@
         <a href="#team" data-i18n="nav.team">Team</a>
         <a href="#contact" data-i18n="nav.contact">Get started</a>
       </nav>
+        <a class="btn btn-primary mobile-cta" href="https://triaid-solidevs.web.app" target="_blank" rel="noopener noreferrer" data-i18n="nav.contact">Get started</a>
     </div>
   </header>
 
@@ -66,8 +68,8 @@
           <h1 class="hero-title" data-i18n="hero.h1" data-od-id="hero-title">From vital signs to the right specialty — automatically.</h1>
           <p class="hero-text" data-i18n="hero.text">Tri-Aid registers patients, captures vital signs automatically from medical measurement instruments, classifies priority and routes each patient to the right specialty — with instant alerts when any value is out of range.</p>
           <div class="hero-ctas">
-            <a class="btn btn-primary" href="https://triaid-solidevs.web.app/login" data-i18n="hero.ctaStaff" data-od-id="hero-cta-staff">I'm triage staff</a>
-            <a class="btn btn-ghost" href="https://triaid-solidevs.web.app/patient-registration/new" data-i18n="hero.ctaPatient" data-od-id="hero-cta-patient">I'm a patient</a>
+            <a class="btn btn-primary" href="https://triaid-solidevs.web.app/login" data-od-id="hero-cta-staff"><span data-i18n="hero.ctaStaff">I'm triage staff</span></a>
+            <a class="btn btn-ghost" href="https://triaid-solidevs.web.app/patient" data-od-id="hero-cta-patient"><span data-i18n="hero.ctaPatient">I'm a patient</span></a>
           </div>
         </div>
 
@@ -131,9 +133,10 @@
               <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m8.5 12.5 2.5 2.5 4.5-5"/></svg><span data-i18n="video.check2">Assisted priority classification validated by triage staff</span></li>
               <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m8.5 12.5 2.5 2.5 4.5-5"/></svg><span data-i18n="video.check3">Routing to the right specialty</span></li>
             </ul>
-            <!-- TODO: reemplazar href por el link real cuando el video esté publicado -->
-            <a class="video-link" href="https://www.youtube.com/watch?v=TRI-AID-PENDIENTE" target="_blank" rel="noopener noreferrer" aria-label="Tri-Aid demo video">
+            <a class="video-link" href="https://youtu.be/ZbTMJk2V1k0" target="_blank" rel="noopener noreferrer" aria-label="Tri-Aid — About the product video">
+              <img class="video-link__thumb" src="https://i.ytimg.com/vi/ZbTMJk2V1k0/hqdefault.jpg" alt="" loading="lazy">
               <span class="video-link__play"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+              <span class="video-link__text" data-i18n="video.watch">Watch the About-the-Product video</span>
             </a>
           </div>
         </div>
@@ -219,7 +222,7 @@
               <li data-i18n="plan.essential.f3">Real-time out-of-range alerts</li>
               <li data-i18n="plan.essential.f4">Patient portal included</li>
             </ul>
-            <a class="btn btn-ghost plan-cta" href="subscription/contratar-plan.html?plan=esencial" data-i18n="plan.essential.cta">Choose Esencial</a>
+            <a class="btn btn-ghost plan-cta" href="https://triaid-solidevs.web.app/register?plan=esencial" data-i18n="plan.essential.cta">Choose Esencial</a>
           </article>
 
           <article class="plan-card plan-featured reveal" data-od-id="plan-profesional">
@@ -233,7 +236,7 @@
               <li data-i18n="plan.professional.f3">Multi-specialty routing</li>
               <li data-i18n="plan.professional.f4">Priority support</li>
             </ul>
-            <a class="btn btn-primary plan-cta" href="subscription/contratar-plan.html?plan=profesional" data-i18n="plan.professional.cta">Choose Profesional</a>
+            <a class="btn btn-primary plan-cta" href="https://triaid-solidevs.web.app/register?plan=profesional" data-i18n="plan.professional.cta">Start free with Profesional</a>
           </article>
 
           <article class="plan-card reveal" data-od-id="plan-institucional">
@@ -294,8 +297,8 @@
 
         <div class="team-video-row reveal">
           <div class="team-video">
-            <!-- TODO: reemplazar href por el link real del video del equipo -->
-            <a class="video-link" href="https://www.youtube.com/watch?v=TRI-AID-EQUIPO-PENDIENTE" target="_blank" rel="noopener noreferrer" aria-label="SoliDevs team video">
+            <a class="video-link" href="https://youtu.be/6iCm-GL_e1A" target="_blank" rel="noopener noreferrer" aria-label="SoliDevs team video">
+              <img class="video-link__thumb" src="https://i.ytimg.com/vi/6iCm-GL_e1A/hqdefault.jpg" alt="" loading="lazy">
               <span class="video-link__play"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
             </a>
           </div>
@@ -316,7 +319,9 @@
           <h2 class="cta-title" data-i18n="cta.title" data-od-id="cta-title">Ready to bring Tri-Aid to your emergency room?</h2>
           <p class="cta-text" data-i18n="cta.text">Hospitals, clinics and health institutions: access the application and measure the difference in your own triage room.</p>
           <!-- TODO: reemplazar href por la URL real de la web application -->
-          <a class="cta-btn" href="https://triaid-solidevs.web.app" data-od-id="cta-app"><span data-i18n="cta.btn">Go to the application</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></a>
+          <div class="cta-actions">
+            <a class="cta-btn" href="https://triaid-solidevs.web.app" data-od-id="cta-app"><span data-i18n="cta.btn">Go to the application</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></a>
+          </div>
         </div>
       </div>
     </section>
@@ -346,7 +351,6 @@
         <nav class="footer2-col" aria-label="Legal">
           <h4 data-i18n="footer.legal">Legal</h4>
           <a href="terms.html" data-i18n="footer.terms">Terms &amp; Conditions</a>
-          <a href="privacy.html" data-i18n="footer.privacy">Privacy Policy</a>
           <a href="https://github.com/upc-pre-1ASI0730-2620-8155-SoliDevs/project-report" target="_blank" rel="noopener noreferrer" data-i18n="footer.report">Project report</a>
         </nav>
       </div>
