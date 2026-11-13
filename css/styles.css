@@ -731,6 +731,7 @@ ul, ol { list-style: none; }
 
 @media (max-width: 900px) {
   .nav-links { display: none; }
+  .nav-actions .nav-cta { display: none; }
   .nav-burger { display: block; }
   /* Dropdown: absoluto bajo la barra para que cerrado no ocupe layout
      (antes sumaba ~290px fantasma y el nav medía 340px en tablet/móvil). */
@@ -879,6 +880,11 @@ ul, ol { list-style: none; }
 .video-link__play::after { content: ""; position: absolute; inset: -2px; border-radius: 50%; border: 2px solid var(--accent); animation: play-pulse 2.2s ease-out infinite; }
 .video-link__play svg { width: 32px; height: 32px; margin-left: 4px; color: #fff; }
 .video-link:hover .video-link__play { transform: translate(-50%, -50%) scale(1.08); background: rgba(255, 255, 255, 0.22); }
+.video-link__thumb { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; transition: transform .3s ease; }
+.video-link:hover .video-link__thumb { transform: scale(1.04); }
+.video-link__text { text-shadow: 0 2px 10px rgba(0,0,0,.55); }
+.nav-cta { height: 40px; min-height: 40px; padding: 0 22px; border-radius: 999px; font: 600 14.5px/1 var(--font-display); letter-spacing: 0.01em; }
+.mobile-cta { width: 100%; margin-top: 10px; }
 .video-link__text { position: absolute; left: 0; right: 0; bottom: 18px; margin: 0; padding: 0 20px; text-align: center; font-size: 0.85rem; color: var(--muted-on-dark); }
 @keyframes play-pulse { 0% { transform: scale(1); opacity: .7; } 100% { transform: scale(1.6); opacity: 0; } }
 @media (prefers-reduced-motion: reduce) { .video-link__play::after { animation: none; } .video-link { transition: none; } }
